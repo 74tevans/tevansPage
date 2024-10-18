@@ -3,34 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experience - [Your Name]</title>
+    <title>Experience - Tom Evans</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="bio.html">Bio</a>
-          </li>
-          <li>
-            <a href="experience.html" aria-current="page">Experience</a>
-          </li>
-          <li>
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-        </ul>
+      <nav class="topNav">
+        <a href="index.html">Home</a>
+        <a href="bio.html">Bio</a>
+        <a href="experience.html" aria-current="page">Experience</a>
+        <a href="portfolio.html">Portfolio</a>
       </nav>
     </header>
     <main>
       <h1>Experience</h1>
       <!-- This should highlight your past experience, both professionally and academically. Include employers/schools as you might on a resume, and list accomplishments at each organization. -->
+      <div id="expFlex">
+        <section class="boxStyle2">
+          <h3 class="experience">Academics</h3>
+          <p class="underline">A-Levels</p>
+          <ul>
+            <li>Computer Science: A*</li>
+            <li>Maths: B</li>
+            <li>Biology: B</li>
+          </ul>
+        </section>
+        <section class="boxStyle2">
+          <h3 class="experience">Employment</h3>
+          <dl>
+            <dt class="underline">Bradfield Village Stores</dt>
+            <dd>&#8226 Volunteer stacking shelves, checking produce, helping customers</dd>
+            <dt class="underline">Newbury Racecourse</dt>
+            <dd>&#8226 Waiter at Owner's Club</dd>
+            <dt class="underline">ASDA</dt>
+            <dd>&#8226 Customer delivery driver</dd>
+            <dt class="underline">Thales</dt>
+            <dd>&#8226 Apprentice software developer</dd>
+          </dl>
+        </section>
+      </div>
     </main>
     <footer>
-      <p>Copyright &copy; 2024 [Your Name]</p>
+      <p>Copyright &copy; 2024 Tom Evans</p>
     </footer>
     <script src="script.js"></script>
   </body>
